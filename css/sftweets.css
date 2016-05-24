@@ -1,0 +1,88 @@
+/**
+ * The style sheet of sales force assignment
+ *
+ * 2008 Gang Liu (http://gangliu.net)
+ * This software is free to use.
+ *
+ * Homepage:    http://www.gangliu.info/sfTwitterFeeds/index.html
+ * Twitter API: https://dev.twitter.com/rest/public
+ * Version:     1.0
+ */
+
+body {
+    background: white;
+    font-size: 14px;
+    font-family: 'Helvetica', arial, sans-serif;
+}
+
+
+.salesforce_tweets {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px;
+    padding: 5px;
+    position: relative;
+
+    box-shadow: 2px 2px 2px #02A2e6;
+    border: 1px solid #02A2D6;
+    height: 400px;
+}
+
+.salesforce_tweets > img {
+    width: 100%;
+}
+
+.profile_img {
+    float: left;
+}
+
+.profile_user_name {
+    padding-top: 15px;
+}
+
+.retweet_count {
+    bottom: 2px;
+    position: absolute;
+}
+
+.searchKeyword {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #02A2D6;
+    width: 100%;
+    /* opacity: .1; */
+    color: white;
+    font-weight: bolder;
+    z-index: 200;
+    padding: 10px;
+	box-shadow: 2px 2px 2px #02A2e6;
+}
+
+#sfTweets {
+    padding: 50px;
+}
+
+.user_info {
+    padding-bottom: 25px;
+}
+
+.zero_results {
+	width: 50%;
+    margin-left: 20%;
+    /* height: 100px; */
+    text-align: center;
+    /* vertical-align: middle; */
+    padding: 40px;
+    border: 1px solid #02A2e6;
+}
+
+.keyword {
+	color: white;
+	background-color: black;
+}
+				
+				
+				
+				
